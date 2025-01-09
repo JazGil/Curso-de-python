@@ -1,9 +1,9 @@
 
-var = input("Ingresa un valor: ")
+# Convertir la entrada a un número
+var = input("Ingresa: ")
 
-# Intentamos convertir la entrada a un número
 try:
-    # Convertir a flotante 
+    # Convertir a flotante
     num = float(var)
     
     # Verifica si es un entero
